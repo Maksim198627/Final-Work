@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+//  Условие: на входе массив строк, на выходе новый массив на основе исходного,
+//  в котором длина элементов меньше либо равна 3-м символам."
+
+System.Console.Write("Ввод массива через запятую: ");
+System.Console.WriteLine();
+string[] array = Console.ReadLine()!.Split(","); // ввод пользователем массива строк
